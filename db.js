@@ -11,7 +11,10 @@ const pool = new Pool(
     //     port: process.env.port,
     // }
     {
-        connectionString: process.env.connectionString
+        connectionString: process.env.connectionString,
+        ssl: {
+            rejectUnauthorized: false
+        }
     }
 );
 
