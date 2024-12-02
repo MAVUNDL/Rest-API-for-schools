@@ -1,4 +1,4 @@
-const apiUrl = 'https://rest-api-for-schools.onrender.com/api/v1/schools';  // Your API endpoint
+const apiUrl = 'http://localhost:3000/api/v1/schools';  // Your API endpoint
 const schoolsTable = document.querySelector('#schoolsTable tbody');
 const paginationDiv = document.querySelector('#paginationDiv');
 const addSchoolForm = document.querySelector('#addSchoolForm');

@@ -18,4 +18,6 @@ const pool = new Pool(
     }
 );
 
+console.log(process.env.connectionString);
+
 module.exports = pool;
