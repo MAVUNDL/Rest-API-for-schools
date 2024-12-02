@@ -6,6 +6,9 @@ const EndpointRouting = require("./src/schools/routes");
 // middleware
 app.use(express.json());
 app.use(express.static("public"))
+const cors = require('cors');
+app.use(cors());  // Allow all origins
+
 
 
 // set home end-point
